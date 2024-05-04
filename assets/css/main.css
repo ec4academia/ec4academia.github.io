@@ -69,8 +69,8 @@ input, select, textarea {
 /* For mobile devices */
 @media (max-width: 767px) {
     .desktop-size {
-        width: 100%; /* Resize image to fit the width of the container */
-        height: auto; /* Let the height adjust proportionally */
+        width: 60px /* Resize image to fit the width of the container */
+        height: 75px; /* Let the height adjust proportionally */
     }
 }
 
