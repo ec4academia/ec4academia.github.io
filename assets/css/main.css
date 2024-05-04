@@ -60,6 +60,20 @@ input, select, textarea {
   -ms-appearance: none;
   appearance: none; }
 
+/* For desktop browsers */
+.desktop-size {
+    width: 120px;
+    height: 150px;
+}
+
+/* For mobile devices */
+@media (max-width: 767px) {
+    .desktop-size {
+        width: 100%; /* Resize image to fit the width of the container */
+        height: auto; /* Let the height adjust proportionally */
+    }
+}
+
 /* Basic */
 @-ms-viewport {
   width: device-width; }
