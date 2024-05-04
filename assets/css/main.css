@@ -65,12 +65,23 @@ input, select, textarea {
     width: 120px;
     height: 150px;
 }
+.desktop-logo {
+    width: 400px;
+    height: 250px;
+}
 
 /* For mobile devices */
 @media (max-width: 767px) {
     .desktop-size {
-        width: 90px /* Resize image to fit the width of the container */
-        height: 112.5px; /* Let the height adjust proportionally */
+        width: 120px 
+        height: 150px;
+    }
+}
+
+@media (max-width: 767px) {
+    .desktop-logo {
+        width: 400px /* Resize image to fit the width of the container */
+        height: 250px; /* Let the height adjust proportionally */
     }
 }
 
