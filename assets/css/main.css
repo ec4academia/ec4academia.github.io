@@ -60,31 +60,6 @@ input, select, textarea {
   -ms-appearance: none;
   appearance: none; }
 
-/* For desktop browsers */
-.desktop-size {
-    width: 120px;
-    height: 150px;
-}
-.desktop-logo {
-    width: 400px;
-    height: 250px;
-}
-
-/* For mobile devices */
-@media (max-width: 767px) {
-    .desktop-size {
-        width: 120px 
-        height: 150px;
-    }
-}
-
-@media (max-width: 767px) {
-    .desktop-logo {
-        width: 400px /* Resize image to fit the width of the container */
-        height: 250px; /* Let the height adjust proportionally */
-    }
-}
-
 /* Basic */
 @-ms-viewport {
   width: device-width; }
@@ -1469,9 +1444,7 @@ ul.pagination {
 
 table {
   margin: 0 0 0 0;
-  width: 70%; 
-  border-collapse: collapse;
-}
+  width: 100%; }
   table tbody tr {
     border: solid 1px rgba(210, 215, 217, 0.75);
     border-left: 0;
@@ -1504,11 +1477,6 @@ table {
       border-bottom: 0; }
     table.alt tfoot {
       border-top: 0; }
-
-@media only screen and (max-width: 767px) {
-        table {
-            width: 100%; 
-        }
 
 /* Button */
 input[type="submit"],
