@@ -63,7 +63,7 @@ input, select, textarea {
 <style>
     /* For computers */
     .logo {
-        width: 40%;
+        width: 100%;
         max-width: 400px; /* Optional: to ensure it doesn't exceed 400px */
     }
 
