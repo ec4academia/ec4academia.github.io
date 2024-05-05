@@ -60,6 +60,23 @@ input, select, textarea {
   -ms-appearance: none;
   appearance: none; }
 
+<style>
+    /* For computers */
+    .logo {
+        width: 40%;
+        max-width: 400px; /* Optional: to ensure it doesn't exceed 400px */
+    }
+
+    /* For phones */
+    @media (max-width: 767px) {
+        .logo img {
+            width: 100%;
+            height: auto;
+            max-width: none; /* Reset max-width to allow it to take full width */
+        }
+    }
+</style>
+
 /* Basic */
 @-ms-viewport {
   width: device-width; }
