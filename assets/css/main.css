@@ -74,7 +74,23 @@ input, select, textarea {
             max-width: none; /* Reset max-width to allow it to take full width */
         }
     }
+
+    .table {
+	    width: 70%; 
+	    border-collapse: collapse;
+    }
+
+    @media (max-width: 767px) {
+        .table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+    }
+
+
 </style>
+
+
 
 /* Basic */
 @-ms-viewport {
