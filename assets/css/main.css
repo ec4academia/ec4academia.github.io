@@ -55,6 +55,21 @@ table {
   }
 </style>
 
+<style>
+  .time-cell {
+    display: flex;
+    flex-direction: column;
+  }
+  .info-cell {
+    display: flex;
+    flex-direction: column;
+  }
+  .info-item {
+    display: flex;
+    justify-content: space-between;
+  }
+</style>
+
 body {
   -webkit-text-size-adjust: none; }
 
