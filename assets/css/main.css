@@ -56,17 +56,9 @@ table {
 </style>
 
 <style>
-  .time-cell {
-    display: flex;
-    flex-direction: column;
-  }
-  .info-cell {
-    display: flex;
-    flex-direction: column;
-  }
-  .info-item {
-    display: flex;
-    justify-content: space-between;
+  .author-names {
+    padding-left: 20px; /* Adjust the padding as needed */
+    display: block;     /* Ensure it takes a new line */
   }
 </style>
 
