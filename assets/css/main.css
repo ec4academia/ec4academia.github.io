@@ -62,6 +62,13 @@ table {
   }
 </style>
 
+<style>
+        .line {
+            width: 80%;
+            display: inline-block;
+        }
+    </style>
+
 body {
   -webkit-text-size-adjust: none; }
 
